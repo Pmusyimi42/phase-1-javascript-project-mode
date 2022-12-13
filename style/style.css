@@ -16,3 +16,12 @@ body {
     top: 50%;
     left: 50%;
 }
+
+.container{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 50px 40px;
+    box-shadow: 0 20 px 65px blueviolet;
+    position: relative;
+    border-radius: 5px;
+}
