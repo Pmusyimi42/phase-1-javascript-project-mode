@@ -5,3 +5,14 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    background-color: aqua;
+    }
+    .wrapper {
+    width: 400px;
+    border: 1px solid yellowgreen;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
