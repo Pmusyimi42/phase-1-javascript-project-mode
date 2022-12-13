@@ -24,6 +24,7 @@ body {
     box-shadow: 0 20 px 65px blueviolet;
     position: relative;
     border-radius: 5px;
+    text-align: center;
 }
 
 .container:after {
@@ -34,5 +35,13 @@ body {
     background-color: antiquewhite;
     z-index: -1;
     top: -10;
+    left: 10%;
+}
+
+.container p {
+    color: beige;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
 }
     
