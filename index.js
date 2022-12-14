@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded',()=>{
   getQuotes()  
 })
+let quoted = document.getElementById('quote');
+const getQuote = document.getElementById('btn');
 const getQuotes = ()=>{
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': 'fab9a53a39mshe9809b23c7afb54p11725cjsnb80dfbbd2ffe',
-            'X-RapidAPI-Host': 'quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com'
-        }
-    };
     
-    fetch('https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?token=ipworld.info', options)
+    
+    fetch('https://api.quotable.io/random',)
         .then(response => response.json())
-        .then(getQuote)
+        .then((quote)=>{
+            quoted.innerText = quote.content;
+            author.innerText = quote.author;
+        })    
         .catch(err => console.error(err));
 };
+getQuote.addEventListener('click', getQuotes);
