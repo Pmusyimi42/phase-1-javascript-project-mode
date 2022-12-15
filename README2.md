@@ -9,3 +9,9 @@
     - clone this repository from your desktop    
     - navigate to the top level directory
     -open index.html and index.js in your browser
+
+## Technologies used
+    - JavaScript
+    -HTML
+    -CSS
+    - bootstrap
