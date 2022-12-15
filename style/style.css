@@ -6,21 +6,32 @@
 }
 
 body {
-    background-color: aqua;
-    }
-    .wrapper {
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-2019-blue-dreams-in-front-of-motivational-background-picture-image_911538.jpg");
+}
+/* .wrapper {
     width: 400px;
-    position: absolute;
+    position: absolute; 
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+} */
+
+.header h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fixed-bottom {
+    text-align: center;
+    color: darkorange;
 }
 
 .container{
     width: 100%;
     background-color: cornflowerblue;
     padding: 50px 40px;
-    box-shadow: 0 20px 65px blueviolet;
+    /* box-shadow: 0 20px 65px blueviolet; */
     position: relative;
     border-radius: 10px;
     text-align: center;
@@ -44,7 +55,7 @@ body {
 
 .container h3 {
     color: beige;
-    margin: 20px 0 60px 0;
+    /* margin: 20px 0 60px 0; */
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -52,11 +63,14 @@ body {
 .container button {
     background-color: darkorange;
     border: none;
-    padding: 15px 45px;
+    padding: 15px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
     color: blue;
     cursor: pointer;
+}
+.commentSection{
+    height: 180px;
 }
     
